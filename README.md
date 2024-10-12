@@ -1,8 +1,28 @@
-# React + Vite
+#Multi-Step Form with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A multi-step form built with React.js that includes data validation, error handling, and local storage persistence. Users can navigate through three steps: Personal Information, Address Information, and at last they can preview their entered details
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Usage]
+- [Features]
+- [Technologies Used]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*USAGE
+-This project was created by Vite+react
+-Use npm run dev to start the project locallay
+
+*FEATURES
+-Multi-step form
+-Error handling using simple validation
+-Tab navigation for switching between forms
+-Presisting data using localstorage
+-Final preview of entered information before submitting
+
+*TECHNOLOGIES USED
+- React.js
+- Tailwind CSS
+- LocalStorage API
+
+
+.

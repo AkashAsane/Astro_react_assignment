@@ -16,7 +16,12 @@ const Form1 = ({ onNext }) => {
     const newError={}
     if (!formData.name) newError.name = "Name is required.";
     if (!formData.email) newError.email = "Email is required.";
-    if (!formData.phone) newError.phone = "Phone number is required.";
+    if (!formData.phone) {
+      newError.phone = "Phone number is required";
+    } else if (formData.phone.length !== 10) {
+      newError.phone = "Phone number must be valid";
+    }
+    
    
 
     if (Object.keys(newError).length > 0) {

@@ -121,7 +121,7 @@ const Form2 = ({ onPrevious, onNext, step }) => {
             </button>
             <button
               type="submit"
-              className="bg-blue-500 text-white rounded p-2"
+              className="bg-teal-500 text-white rounded p-2 "
             >
               Next
             </button>
